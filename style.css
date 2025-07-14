@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6ecec;
+  color: #121010;
+}
+header {
+  background-color: #dce1e4;
+  padding: 1rem 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+nav a {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+  font-size: 1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 4rem;
+  text-align: center;
+}
+/* .profile-photo {
+  width: 180px;
+  height: 190px;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-bottom: re
+} */
+ .profile-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem; /* increase spacing below image */
+}
+
+
+ h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background-color: #5ccce2da;
+  color: rgb(255, 251, 251);
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #bcf07d;
+}
+ul {
+  text-align: left;
+  max-width: 600px;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+.cert-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.cert-gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
